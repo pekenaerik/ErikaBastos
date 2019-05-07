@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Erika Cristina Alves Bastos</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script>
+      function myFunction() {
+			document.getElementsByClassName("menu")[0].classList.toggle("responsive");
+		}
+    </script>
+
+
+  </head>
+  <body>
+    <header id="menu-nav">
+      <nav>
+        <a href="http://womakerscode.org/"
+          ><img src="images/logo.png" id="womakers-logo"
+        /></a>
+
+        <ul class="menu">
+          <li class="icon"><!--Inclui o ícone do responsivo na lista-->
+            <a href="javascript:void(0);" onclick="myFunction()">&#9776;
+            </a><!--Chama a função javascript no evento click do icon-->
+          </li>
+          <li><a href="Index.html">HOME</a></li>
+          <li><a href="#servicos">SERVIÇOS</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#sobre">SOBRE MIM</a></li>
+          <li><a href="#contato">CONTATO</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="efeito"></div>
+    </div>
+    <main>
+      <section id="welcome">
+        <div id="slider">
+          <h1>Bem Vind&#64;</h1>
+          <h2>Um subtitulo</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore magna aliqua
+          </p>
+        </div>
+        <!--ver se essa parte muda para outro slide para a direita-->
+      </section>
+
+      <section id="servicos" class="background-black">
+        <header class="borderbottom-white">
+          <h1>Serviços</h1>
+          <p class="text-orange">Aqui entra uma breve explicaçao</p>
+        </header>
+        <div id="div-services">
+          <figure class="servicos-imagens">
+            <img src="images/Service1.png" alt="Websites" />
+            <figcaption>
+              <h1 class="subtitle-font">Websites</h1>
+              <p class="text-white">Aqui entra uma descriçao do serviço</p>
+            </figcaption>
+          </figure>
+          <figure class="servicos-imagens">
+            <img src="images/Service2.png" alt="Templates" />
+            <figcaption>
+              <h1 class="subtitle-font">Templates</h1>
+              <p>Aqui entra uma descriçao do serviço</p>
+            </figcaption>
+          </figure>
+          <figure class="servicos-imagens">
+            <img src="images/Service3.png" alt="Temas Wordpress" />
+            <figcaption>
+              <h1 class="subtitle-font">Temas Wordpress</h1>
+              <p>Aqui entra uma descriçao do serviço</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <div class="efeito"></div>
+
+      <section id="portfolio" class="background-orange">
+        <header class="borderbottom-black">
+          <h1>Meus Trabalhos</h1>
+          <p>Aqui entra um descrição</p>
+        </header>
+
+        <div id="div-portfolio">
+        
+          <section id="filtro">
+            
+            <input type="radio" name="bt" id="bt_tudo">
+            <label for="bt_tudo">Tudo</label>
+            <input type="radio" name="bt" id="bt_website">
+            <label for="bt_website">Website</label>
+            <input type="radio" name="bt" id="bt_template">
+            <label for="bt_template">Template</label>
+            <input type="radio" name="bt" id="bt_tema">
+            <label for="bt_tema">Tema</label>
+          
+
+          <div id="galeria">
+          <figure class="portfolio-imagens website">
+            <img src="images/Portfolio01.png" alt="Website" />
+            <figcaption>
+              <h1>Thumbnail label</h1>
+              <h2>Thumbnail Caption</h2>
+            </figcaption>
+          </figure>
+          <figure class="portfolio-imagens template">
+            <img src="images/Portfolio02.png" alt="Template" />
+            <figcaption>
+              <h1>Thumbnail label</h1>
+              <h2>Thumbnail Caption</h2>
+            </figcaption>
+          </figure>
+          <figure class="portfolio-imagens tema">
+            <img src="images/Portfolio03.png" alt="Tema" />
+            <figcaption>
+              <h1>Thumbnail label</h1>
+              <h2>Thumbnail Caption</h2>
+            </figcaption>
+          </figure>
+          </div>
+        </section>
+        </div>
+      </section>
+
+      <section id="sobre" class="background-black">
+        <header class="borderbottom-white">
+          <h1>Quem sou eu</h1>
+          <p class="text-orange">Aqui entra um descrição</p>
+        </header>
+        <figure id="perfil">
+          <img src="images/photo.jpeg" alt="Minha foto" />
+          
+          <h1 class="subtitle-font">Erika Bastos</h1>
+          <ul id="redes">
+              <li><a class="icones" href="http://www.facebook.com/pekenaerik"><i class="fab fa-facebook-f"></i></a></li></li>
+              <li><a class="icones" href="http://www.twitter.com/pekenaerik"><i class="fab fa-twitter"></i></a></li></li>
+              <li><a class="icones" href="http://www.linkedin.com/in/erika-bastos-a265b631/"><i class="fab fa-linkedin-in"></i></a></li></li>
+              
+          </ul>
+          </figcaption>
+        </figure>
+        <div id="div-sobre">
+          <h2 class="subtitle-font">Sobre Mim</h2>
+          <p class="text-white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore magna aliqua. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore magna aliqua
+          </p>
+        </div>
+        <div id="div-habilidades">
+          <h2 class="subtitle-font left-align">Habilidades</h2>
+          <ul id="habilidades">
+            <li>
+              <progress
+                name="Html5"
+                id="Html5"
+                max="100"
+                value="80"
+                data-label="Html5"
+              ></progress>
+            </li>
+            <li>
+              <progress
+                name="CSS"
+                id="CSS"
+                max="100"
+                value="60"
+                data-label="CSS"
+              ></progress>
+            </li>
+            <li>
+              <progress
+                name="javascript"
+                id="javascript"
+                max="100"
+                value="20"
+                data-label="JavaScript"
+              ></progress>
+            </li>
+            <li>
+              <progress
+                name="PHP"
+                id="PHP"
+                max="100"
+                value="15"
+                data-label="PHP"
+              ></progress>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="contato" class="background-orange">
+        <header class="borderbottom-black">
+          <h1>Contato</h1>
+          <p>Aqui entra um descrição</p>
+        </header>
+        <div id="div-contato">
+          <address id="emailtelefone">
+            <a id="email" href="mailto:eka.alves@gmail.com">eka.alves@gmail.com</a>
+            <p id="telefone">+55 21 99559-8513</p>
+        
+            <h2 class="borderbottom-black">Midias</h2>
+            <ul>
+              <li>
+                <a href="http://facebook.com/pekenaerik"
+                  ><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="http://twitter.com/pekenaerik"
+                  ><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="http://linkedin.com/in/erika-bastos-a265b631"
+                  ><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="http://pinterest.com/pekenaerik"
+                  ><i class="fab fa-pinterest-p"></i></a>
+              </li>
+              <li>
+                <a href="http://instagram.com/erikabastosoficial"
+                  ><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="http://github.com/pekenaerik"
+                  ><i class="fab fa-github"></i></a>
+              </li>
+            </ul>
+          
+          </address>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <p>Women + Tech = &lt;strong&gt;</p>
+      </footer>
+  </body>
+</html>
