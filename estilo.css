@@ -153,6 +153,13 @@ section#welcome {
     margin-top: 5px !important;
     font-size: 12pt !important;
   }
+  div#slider p {
+    color: #fff;
+    font-size: 13pt !important;
+    font-weight: 200;
+    text-align: justify;
+    margin-right: 50px;
+  }
 }
 
 div#slider {
@@ -176,7 +183,7 @@ div#slider h2 {
 
 div#slider p {
   color: #fff;
-  font-size: 12pt;
+  font-size: 16pt;
   font-weight: 200;
   text-align: justify;
 }
@@ -203,6 +210,7 @@ figure.servicos-imagens figcaption {
   font-weight: 100;
   padding: 0px;
   margin: 0px;
+  width: 300px;
 }
 
 div#div-portfolio {
