@@ -187,10 +187,6 @@ div#div-services {
   text-align: center;
 }
 
-figure#perfil img {
-  width: 50%;
-}
-
 figure.servicos-imagens {
   display: inline-block;
   text-align: center;
@@ -297,6 +293,10 @@ figure.portfolio-imagens figcaption h2 {
 
 figure#perfil {
   text-align: center;
+}
+
+figure#perfil img {
+  height: 300px;
 }
 
 i {
