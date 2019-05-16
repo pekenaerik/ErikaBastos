@@ -140,7 +140,6 @@ section#welcome {
 @media (max-width: 760px) {
   section#welcome {
     height: 250px;
-
     background-image: url("Slidertransparent2mobile.png"),
       url("slider001mobile.png");
     background-repeat: repeat, no-repeat;
