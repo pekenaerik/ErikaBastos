@@ -132,8 +132,7 @@ section#welcome {
   margin-top: 0px;
   padding-top: 150px;
   padding-left: 15%;
-  background-image: url("images/Slidertransparent2.png"),
-    url("images/slider001.png");
+  background-image: url("Slidertransparent2.png"), url("slider001.png");
   background-repeat: repeat, no-repeat;
   background-position: 80% 50%;
   background-color: rgb(250, 31, 80);
@@ -142,8 +141,8 @@ section#welcome {
   section#welcome {
     height: 250px;
 
-    background-image: url("images/Slidertransparent2mobile.png"),
-      url("images/slider001mobile.png");
+    background-image: url("Slidertransparent2mobile.png"),
+      url("slider001mobile.png");
     background-repeat: repeat, no-repeat;
   }
   div#slider h1 {
